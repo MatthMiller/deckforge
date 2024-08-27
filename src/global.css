@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background: #BB84FF;
+  color: #F5F5F5;
+}
+
 html {
   font-family: 'Raleway', sans-serif !important;
   font-optical-sizing: auto !important;

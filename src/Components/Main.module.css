@@ -1,0 +1,63 @@
+.geralContainer {
+    display: flex;
+}
+
+.rightContainer {
+    min-width: 300px;
+    background-color: #0B0B0B;
+    border-left: 1px solid #444444;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100svh;
+}
+
+.chooseContainer {
+    flex: 1;
+    align-content: center;
+    background-image: linear-gradient(#1d1d1d 2px, transparent 2px), linear-gradient(to right, #1d1d1d 2px, transparent 2px);
+    background-size: 32px 32px;
+    background-color: #121212;
+}
+
+.pickInfoDisplay {
+    background-color: #0B0B0B;
+    /* height: 270px; */
+    flex: 0.35;
+    border-top: 1px solid #444444;
+}
+
+.deckHeader {
+    background-color: #8F37FB;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+
+.deckHeader img {
+    user-select: none;
+}
+
+.deckHeaderLeft {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.deckHeaderTitle {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #FDFBFF;
+    font-weight: 600;
+}
+
+.deckOptionsContainer {
+    background-color: #0B0B0B;
+    border-radius: 8px;
+    padding: 12px;
+}
